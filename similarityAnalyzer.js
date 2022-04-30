@@ -9,8 +9,7 @@ async function stringSimilarity(string) {
     let splitString = string.split(/[.!?]/);
     let firstString = splitString[0];
     let secondString = splitString[1];
-    // 
-    // 
+
     // build a levenshtein distance matrix for the two strings
     let levenshteinMatrix = [];
     for (let i = 0; i <= firstString.length; i++) {
