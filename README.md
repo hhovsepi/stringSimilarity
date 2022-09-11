@@ -1,7 +1,7 @@
 # stringSimilarity
 Compare two strings together and return a score signifying the similarity score.
 
-# This script splits a 2 sentence string into individual sentences and uses multiple similarity algorithms to calculate the similarity between the strings. 
+### This script splits a 2 sentence string into individual sentences and uses multiple similarity algorithms to calculate the similarity between the strings. 
 
 - Levenshtein Distance - calculates the minimum number of operations you must do to change 1 string into another. The higher the number, the less similar the strings are.
 - Cosine Similarity - calculates the similarity between two strings using the cosine similarity formula. Cosine similarity is a metric, helpful in determining, how similar the data objects are irrespective of their size. The closer the number is to 1, the more similar the strings are.
